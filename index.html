@@ -538,17 +538,6 @@
 <body>
 <div class="wrapper">
   
-  <img src="images/printer.gif" alt="" style="
-    position: fixed;
-    top: 1rem;
-    left: 1rem;
-    width: 70px;
-    height: 70px;
-    object-fit: contain;
-    pointer-events: none;
-    z-index: 50;
-  ">
-
   <nav>
     <div class="nav-links">
       <a id="nav-home" class="active" onclick="showPage('home')">Home</a>
@@ -649,7 +638,19 @@
     <div class="konami-msg">
       <span class="prompt">$</span>you found it.<br/>
       <span class="prompt">$</span>not sure what you expected,<br/>
-      <span class="prompt">$</span>but here we are.
+      <span class="prompt">$</span>but here we are.<br/>
+      <span class="prompt">$</span>watch this print for me okay?
+      </div>
+       <img src="images/printer.gif" alt="" style="
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    pointer-events: none;
+    z-index: 50;
+  ">
     </div>
     <button class="konami-close" onclick="closeKonami()">[ close ]</button>
   </div>
